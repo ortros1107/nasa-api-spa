@@ -1,0 +1,10 @@
+.welcome-title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 25vw;
+    right: 25vw;
+    top: 45vh;
+    margin-bottom: -5vh;
+    z-index: 10;
+    font-size: 3em;
+}
