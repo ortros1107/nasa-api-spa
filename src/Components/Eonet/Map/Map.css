@@ -1,3 +1,124 @@
+.Map {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
 
+.marker-icon {
+    width:2vw;
+    height:3vh;
+    position: relative;
+    align-self: center;
+}
+
+.drought{
+    color:#fd320e;
+    
+}
+.dust-and-haze{
+    color:#a34c05;
+    
+}
+.earthquake{
+    color: #120357;
+    
+}
+.flood{
+    color: #1e5391;
+    
+}
+.landslide{
+    color: #0d0b7a;
+   
+}
+.man-made{
+    color: #000000;
+    
+}
+.sea-and-lake-ice{
+    color: #218fe9;
+    
+}
+.severe-storm{
+    color: rgb(23, 20, 231);
+}
+.snow{
+    color: #ffffff;
+    background-color: #1599e6;
+}
+.temperature-extreme{
+    color: #f0ebea;
+    background-color:#eb0f0f;
+}
+.volcano{
+    color: rgb(56, 56, 56);
+}
+.water-color{
+    color: #0c70ce;
+    background: linear-gradient(to right, rgb(235, 21, 21), rgb(206, 139, 16), rgb(253, 253, 10), rgb(88, 49, 49), rgb(10, 170, 10), rgb(253, 246, 246), rgb(92, 17, 92), rgb(19, 17, 17))
+}
+.wildfire{
+    color: rgb(245, 69, 62);
+    
+}
+
+.marker-btn {
+    width:2vw;
+    height:2vh;
+    border-radius:25%;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.marker-btn:hover {
+    cursor:pointer;
+}
+
+.marker-btn:focus{
+    border-color:transparent;
+}
+
+.cluster-marker {
+    color: #fff;
+    background: #108533;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cluster-marker:hover {
+    cursor: pointer;
+  }
+
+  
+
+  .mapboxgl-popup-content{
+      margin-left: 4vw;
+      margin-right: 4vw;
+      text-align: center;
+      height: 12vh;
+      width: 16vw;
+      line-height: 1.5em;
+     padding: 3vh;
+     
+  }
+
+  .mapboxgl-popup-close-button{
+      height: 3vh;
+      width: 3vh;
+      font-size: 2vh;
+      color: #000000;
+  }
+
+  .mapboxgl-popup-close-button:hover{
+      color:#ff0000;
+  }
+
+  .mapboxgl-popup-content h3 {
+      margin-top: 1vh;
+      margin-bottom: 2vh;
+  }
 
  
