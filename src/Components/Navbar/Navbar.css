@@ -1,0 +1,29 @@
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    color: #fff;
+    background-color: rgb(21, 168, 131);
+    font-size: 4vh;
+    line-height: 1.5em;
+    font-weight: 600;
+    text-decoration-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding-left: 4vw;
+}
+
+.navbar-link {
+    
+    margin-right: 2vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-link:hover {
+    color: rgb(218, 111, 12);
+}
+
+.active {
+    font-weight:900; 
+}
